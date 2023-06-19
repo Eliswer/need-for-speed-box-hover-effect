@@ -1,5 +1,5 @@
 # NFS box hover effect
-Generate a random dad joke with a click of a button
+Get a beautiful effect on hover like on original NFS websites
 
 # Created with
  1. HTML
