@@ -1,26 +1,40 @@
-# 50 Projects
+# NFS box hover effect
+Get a beautiful effect on hover like on original NFS websites
 
-This repository contains 50 projects done with HTML, CSS and JavaScript.
+# Created with
+ 1. HTML
+ 2. SCSS
+ 3. 7-1 Sass Architecture
+ 4. NPM packages:
+    - node-sass
+    - live-server
+    - css-reset-and-normalize
 
-The project uses the following technologies:
-- `npm node-sass` for compiling of the scss files into css
-- `npm live-server` for a local liver-server
-- `npm css-reset-and-normalize` for the reset and normalization of css
-- `7-1 Sass Architecture` [link](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture)
-
-## Set up
-
+# How to set up:
 Run the following commands in the root directory:
-- `npm install`
-- `live-server --no-browser --ignore=scss/ .`
-- `npm run css-watch`
+```bash
+npm install
+```
+```bash
+ live-server --no-browser --ignore=scss/ .
+```
+```bash
+ npm run css-watch
+```
+
+If a browser window doesnt pop up, check your terminal for URL
 
 **Important**: whenever you create a new `.scss` file, you need to end the watcher with:
 - `ctrl + e` and start it again with:
-- `npm run css-watch`
+```bash
+npm run css-watch
+```
 
 Other commands:
-- `npm run css-compile` - online compiles the files without the watcher
+```bash
+npm run css-compile
+```
+- - online compiles the files without the watcher
 
 ## Troubleshooting:
 ### Running scripts is disabled on this system
@@ -43,3 +57,4 @@ Fix: [link](https://stackoverflow.com/questions/63423584/how-to-fix-error-nodemo
     - `Get-ExecutionPolicy`
 - You should get `Unrestricted`
 - Run `live-server` again
+
