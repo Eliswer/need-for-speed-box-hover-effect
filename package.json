@@ -1,7 +1,7 @@
 {
   "name": "javascript",
   "version": "1.0.0",
-  "description": "This repository contains 50 projects done with HTML, CSS and JavaScript",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "css-compile": "node-sass -r --output css/ scss/main.scss",
