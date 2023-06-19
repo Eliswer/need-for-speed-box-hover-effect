@@ -5,7 +5,7 @@ Get a beautiful effect on hover like on original NFS websites
  1. HTML
  2. SCSS
  3. 7-1 Sass Architecture
- 4. npm packages:
+ 4. NPM packages:
     - node-sass
     - live-server
     - css-reset-and-normalize
