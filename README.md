@@ -22,6 +22,8 @@ npm install
  npm run css-watch
 ```
 
+If a browser window doesnt pop up, check your terminal for URL
+
 **Important**: whenever you create a new `.scss` file, you need to end the watcher with:
 - `ctrl + e` and start it again with:
 ```bash
